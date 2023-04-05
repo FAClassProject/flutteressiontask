@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'texts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -43,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
             scale: 2.3,
           ),
           Text(
-            'Hi there,\nI\'m Reflectly',
+            Textlines().first,
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white70,
@@ -55,10 +56,10 @@ class _MyHomePageState extends State<MyHomePage> {
             height: 30,
           ),
           Text(
-            'Your new Personal \nJournaling companion',
+            Textlines().second,
             textAlign: TextAlign.center,
             style: TextStyle(
-              color: Colors.white70,
+              color: Colors.grey,
               fontSize: 22,
             ),
           ),
@@ -77,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             onPressed: () {},
             child: Text(
-              'Hi, Reflectly',
+              Textlines().third,
               style: TextStyle(
                 color: Colors.deepPurpleAccent,
                 fontSize: 15,
@@ -86,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           SizedBox(height: 110),
           Text(
-            'I ALREADY HAVE AN ACCOUNT',
+            Textlines().fourth,
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
