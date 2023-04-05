@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           SizedBox(
-            height: 20,
+            height: 30,
           ),
           Text(
             'Your new Personal \nJournaling companion',
@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
           ),
-          SizedBox(height: 30),
+          SizedBox(height: 110),
           Text(
             'I ALREADY HAVE AN ACCOUNT',
             textAlign: TextAlign.center,
